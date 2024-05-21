@@ -1,0 +1,70 @@
+body {
+  font-family: OpenSans, Arial, sans-serif;
+  font-size: 12px;
+}
+
+header {
+  background-color: lightsteelblue;
+}
+
+
+ul{
+display: flex;
+justify-content: space-around;
+}
+
+nav {
+  display: inline-block;
+  width: 80%;
+ 
+}
+
+header img{
+  width: 10%;
+  position: relative;  top: 20px;
+
+}
+
+main {
+  background-color: lightblue;
+  font-size: 20px;
+}
+
+footer {
+  background-color: lightgreen;
+}
+
+li {
+  /* display: inline-block;
+  width: 33%; */
+  
+  list-style-type: none;
+}
+
+h1 {
+  text-align: Center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: darkolivegreen;
+}
+
+p {
+  line-height: 90%;
+}
+
+.grid-image{
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  gap:10px 10px;
+  align-items:center; /* dog pic is centered */
+}
+
+.grid-image img{
+   width: 100%;
+}
+
+.flex-image{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
